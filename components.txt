@@ -1,0 +1,49 @@
+Components to be implemented
+============================
+
+
+Audio
+-----
+
+For obvious reasons an audio engine is required. It should be implemented on
+linux (unix), windows and possibly other operating systems. A simple system to
+be able to have separate audio streams, each with their own source is vital.
+
+
+CPU Emulator
+------------
+
+To be able to operate a ship one needs an operating system. This does not
+necessarily need to be an actual OS, but some form of system to control
+and steer a ship is required. This system should be able to vary wildly,
+for example one might start with a junkyard ship with shitty control. At a
+later stage in the game it might be fully upgraded to an advanced ship with
+a terminal or even full operating system.
+
+
+Graphics
+--------
+
+For seriously obvious reasons a graphics engine is required. This engine should
+support 3D graphics implemented on unix, windows and possibly other operating
+systems. It should be capable of harvasting modern GPUs and drivers, as well as
+a decent amount of older GPUs so most gaming desktops will be able to run it.
+The engine will be Groufix.
+
+
+Networking
+----------
+
+For a multiplayer component networking is required. This could entail a peer to
+peer setup or a client/server model. It should handle communication between
+devices in a fast and efficient manner, not everywhere is it required to have a
+reliable connection.
+
+
+Physics
+-------
+
+A game set in space will need physics. Physics to simulate space. Physics to
+simulate being on a planet. Physics to simulate being in a spaceship. Spaceship
+physics, particle physics, lots of physics. A physics engine is required that
+should handle physics in a generic way.

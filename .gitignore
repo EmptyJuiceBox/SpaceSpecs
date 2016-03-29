@@ -1,0 +1,8 @@
+# filetypes
+*.cachefile
+*.fuse_hidden*
+*.npp
+*.swo
+*.swp
+*.temp
+*~
