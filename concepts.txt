@@ -1,0 +1,73 @@
+Concepts that may or may not make the game
+==========================================
+
+
+Infinite space
+--------------
+
+A sandbox where space is infinite, the actual space is populated with galaxies,
+solar systems, planets, black holes, space stations, fleets and what have you.
+This means there needs to be a "map" of known space to man. This map may not be
+accessible to everyone depending on society, but it is a resource you can
+acquire in the game.
+
+This concept would require a system to actually store, simulate and render
+infinite space. This would most likely be a sparse octree-like structure that
+can be extended as space is explored. Along this thoughtline there needs to be
+procedural generation of galaxies, solar systems and planets.
+
+
+Space stations
+--------------
+
+A space station would represent a hub, or "town" for people to gather, to
+buy new components for their ships and to trade. Ships can be docked here,
+which may make the space station a "dock" to be able to enter a planet. One
+docks his or her ship at the station, to then travel to the planet. Of course
+a player would not be restricted to accessing a planet this way, but this could
+represent an established civilization on a planet.
+
+Space stations themselves are of course not restricted to this kind of use
+either. A space station could simply be a huge customized ship, owned by a say
+a group of people, that simply allow other players to board it and trade.
+
+
+Habitable planets
+-----------------
+
+Planets could be procedurally generated. These planets would have ecosystems,
+an atmosphere and would be visitable by players. A player could establish a
+base on some planet for his or her (or its) ships, organizations an society.
+There can be shops, trading and similar as one would except on a space station.
+
+
+Customizable ships
+------------------
+
+One of the biggest components that makes this project a game is customizable
+ships. This means each player (or rather each save) consists of a character
+that can buy and own ships. These ships can vary wildly in complexity. One
+player might have a junkyard ship with a simple terminal to control its
+components. Another player might have a full star-trek-esque ship with easy to
+use UIs on board that control loads of functionality on the ship.
+
+Each ship would be built or bought by a player. Meaning each ship has separate
+components (cargo, communication, engines, computer farm, navigation and what
+have you). There would be a mechanism to install these components on an empty
+ship shell, and command them from computers using APIs.
+
+To summarize, a ship would consist of an empty shell filled with components.
+These components may or may not have separate small computers with APIs to
+control it and request information. There is a main computer (or mainframe)
+onboard to which all these separate components are connected. From this
+mainframe one can control all these components. The player does not necessarily
+have full free will over the function of these components, but the idea is that
+each ship is fully customizable. How to actually access these components is
+fully up to the player though. The player might opt for a simple terminal, or
+place full scale UIs over the ship like star-trek. These "controllers" would
+be fully programmable scripts built on top of each other.
+
+The programmable UIs play a big part in ship customization. It allows you to
+visually and functionally customize how one controls a ship. It may also spawn
+a whole market, or economy of software. Which would allow inexperienced people
+to simply stick together working programs to make their ships functional.
